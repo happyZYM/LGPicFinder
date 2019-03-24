@@ -1,0 +1,25 @@
+<html>
+	<head>
+		<title>Luogu图床随机查看器v2.1</title>
+	</head>
+	<body background="https://cdn.luogu.org/images/bg-footer.png">
+		<h1 style="color:white">Luogu图床随机查看器v2.1</h1>
+		<br>
+		<a href="Luogu图床随机查看器 v2.1.html"><img src="reload.png"></img></a>
+		<hr/>
+		<script type="text/javascript">
+			var randnum;
+			randnum=Math.floor(Math.random()*40000);
+			var txt="https://cdn.luogu.org/upload/pic/"+randnum+".png";
+			var txt_ref="<a style=\"color:white\"href=\""+txt+"\" target=\"_blank\">"+txt+"</a>";
+			document.write("<p style=\"color:white\">地址：</p>"+txt_ref);
+			document.write("<p style=\"color:white\">图片：</p>");
+			document.write("<img src="+txt+">");
+		</script>
+		<hr/>
+		<h2 style="color:white">编辑历史</h2>
+		<h3 style="color:white">v1.0：@happyZYM</h3>
+		<h3 style="color:white">v2.0：@wenge</h3>
+		<h3 style="color:white">v2.1：@happyZYM</h3>
+	</body>
+</html>
